@@ -177,16 +177,8 @@
         <button onclick="document.calc.text.value+='0'">0</button>
         <button onclick="document.calc.text.value+='.'">.</button>
         <button onclick="document.calc.text.value+='+'">+</button>
-        <button
-          onclick="document.calc.text.value=eval(document.calc.text.value)"
-          class="reset equal"
-        >
-          =
-        </button>
-
-        <button onclick="document.calc.text.value=''" class="reset clear">
-          C
-        </button>
+        <button onclick="document.calc.text.value=eval(document.calc.text.value)" class="reset equal">=</button>
+        <button onclick="document.calc.text.value=''" class="reset clear">C</button>
         <button onclick="del()" class="reset del">DEL</button>
       </div>
     </div>
