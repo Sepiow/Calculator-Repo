@@ -166,11 +166,49 @@
         <button onclick="del()" class="reset del">DEL</button>
       </div>
     </div>
+<<<<<<< HEAD
+
+    <script>
+      function append(value) {
+        document.cacl.text.value += value;
+      }
+
+      function clearScreen() {
+        document.cacl.text.value = "";
+      }
+
+=======
     <script type="text/javascript">
+>>>>>>> 5716db0fd218986129e8d889ecd9ed13a55b24d5
       function del() {
         var x = document.getElementById("screen").value;
         document.getElementById("screen").value = x.substr(0, x.length - 1);
       }
+<<<<<<< HEAD
+
+      function calculate() {
+        try {
+          document.cacl.text.value = eval(document.cacl.text.value);
+        } catch (e) {
+          document.cacl.text.value = "Error";
+        }
+      }
+
+      function appendFunction(funcName, exponent = null) {
+        // pag walang equal to ung function niya
+        let input = document.cacl.text.value; // kuha value
+        if (input) {
+          // function ng mismong Raise to X
+          if (funcName === "Math.pow") {
+            document.cacl.text.value = `Math.pow(${input},${exponent})`;
+          } else {
+            document.cacl.text.value = `${funcName}(${input})`;
+          }
+          calculate();
+        }
+      }
+=======
+>>>>>>> 5716db0fd218986129e8d889ecd9ed13a55b24d5
     </script>
   </body>
 </html>
