@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+}
+
+body {
+  font-family: "Veranda", sans-serif;
+  background-color: #1b1b1b;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
