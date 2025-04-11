@@ -18,18 +18,19 @@ function backspace() {
 
 // ung eval js code na talaga na nag cacalculate nung nasa textbox
 function calculate() {
-  try {
-    display.value = eval(display.value); // sabi ng eval aun na ung sa js code na nag cocompute tas ung display value ung nasa text box
-  } catch (e) {
-    display.value = "Error"; // If an error occurs, display "Error" on the screen
+  if (display.value === "88224646") {
+    display.value = "Konami Code"; // clear the display
+  } else {
+    try {
+      display.value = eval(display.value); // sabi ng eval aun na ung sa js code na nag cocompute tas ung display value ung nasa text box
+    } catch (e) {
+      display.value = "Error"; // If an error occurs, display "Error" on the screen
+    }
   }
 }
 
-// function ng pang clear on any button press when error is shown
-
 function clearError(value) {
-  if (display.value === "Error") {
-    display.value = ""; // clear the display
+  if (display.value === "789987") {
+    display.value = "Secret Code"; // clear the display
   }
-  display.value += value; // lalagay ung new button press
 }
