@@ -41,7 +41,7 @@ input[type="text"] {
   border: 5px solid;
   border-radius: 8px;
   background-color: #e0e0e0;
-  color: rgb(48, 245, 87);
+  color: black;
   margin-bottom: 20px;
 
   overflow-x: auto; /*para pag sumobra*/
