@@ -41,7 +41,8 @@ input[type="text"] {
   border: 5px solid;
   border-radius: 8px;
   background-color: #e0e0e0;
-  color: black;
+  color: black; /*testing kung gagana ung color ng text and border*/
+  border-color: #3db328;
   margin-bottom: 20px;
 
   overflow-x: auto; /*para pag sumobra*/
